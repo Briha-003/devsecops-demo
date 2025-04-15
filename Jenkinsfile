@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    MONGO_URI = credentials('mongo-uri')
+    MONGO_URI = credentials('mongo_local')
   }
 
   tools {
