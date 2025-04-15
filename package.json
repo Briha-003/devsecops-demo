@@ -1,0 +1,19 @@
+{
+  "name": "devsecops-demo",
+  "version": "1.0.0",
+  "description": "A sample DevSecOps Node.js app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No test specified\" && exit 0",
+    "security-check": "audit-ci --moderate"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0"
+  },
+  "devDependencies": {
+    "audit-ci": "^6.0.0"
+  }
+}
