@@ -12,7 +12,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/yourusername/devsecops-demo.git'
+        git 'https://github.com/Briha-003/devsecops-demo.git'
       }
     }
 
